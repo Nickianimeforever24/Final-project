@@ -3,9 +3,13 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 60px;
     text-align: center;
-    background: #d95f1b;
+    /* background: #d95f1b; */
+    font-weight: bold;
     margin: 0;
     padding: 0;
+    font-style: italic;
+    background-image: linear-gradient(#d95f1b,#2c5b95);
+    border: solid;
 }
 
 #first-title {
@@ -13,28 +17,35 @@
     font-size: 60px;
     text-align: center;
     background: #5c272c;
+    font-weight: bold;
     margin: 0;
     padding: 0;
+    font-style: italic;
+    border: solid;
+    background-image: linear-gradient(#2f1416, #5c272c);
 }
 
 .blurb-info {
     /* background: #7c747c; */
     background-image: linear-gradient(to bottom right, #2f1416, #3c3c3c);
+    border: solid;
 }
 
 #text-2 {
     font-size: 20px;
     font-family: 'Permanent Marker', cursive;
     display: block;
-    color: whitesmoke;
+    color: silver;
 }
 
 .third-section {
     max-width: 60%;
+    border: solid;
 }
 
 .blurb-info2 {
-    background-image: linear-gradient(to bottom right, #d95f1b, #dba59b);
+    background-image: linear-gradient(to bottom right, #d95f1b,#2c5b95);
+    border: solid;
 }
 
 #text-3 {
@@ -45,9 +56,8 @@
 }
 
 .second-section {
-    max-width: 50%;
-    /* display: flex; */
-    /* float: left; */
+    max-width: 60%;
+    border: solid;
 }
 
 #info {
@@ -61,11 +71,10 @@
 .first-section {
     width: 100%;
     height: auto;
-    /* position: relative; */
 }
 
 .first-text {
-    position: relative;
+    position: absolute;
     z-index: 999;
     margin: 0 auto;
     left: 0;
@@ -86,6 +95,8 @@
 }
 
 .navbar {
+    border: solid;
+    border-color: black;
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -144,13 +155,15 @@
     border-radius: 10px;
 }
 
-@media (max-width: 800px) {
+
+
+@media (max-width: 1250px){
     .first-text {
         position: absolute;
         z-index: 999;
         margin: 0 auto;
         left: 0;
-        right: 0;
+        right: 500px;
         text-align: center;
         top: 20%;
         /* Adjust this value to move the positioned div up and down */
