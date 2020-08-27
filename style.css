@@ -82,7 +82,6 @@
 .blurb-info2 {
     background-image: linear-gradient(to bottom right, #d95f1b,#2c5b95);
     border: solid;
-/*>>>>>>> 77f67954403cd944fa6b7b8cada1fb4358cee664*/
 }
 
 #text-3 {
@@ -93,14 +92,14 @@
 }
 
 .second-section {
-/*<<<<<<< HEAD*/
+
   max-width: 50%;
   /* display: flex; */
   /* float: left; */
 /*===============================*/
     max-width: 60%;
     border: solid;
-/*>>>>>>> 77f67954403cd944fa6b7b8cada1fb4358cee664*/
+
 }
 
 #info {
@@ -161,15 +160,6 @@
 }
 
 .navbar {
-/*<<<<<<< HEAD*/
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #0a0f1a;
-  color: whitesmoke;
-  font-family: "Permanent Marker", cursive;
-/*===============*/
     border: solid;
     border-color: black;
     display: flex;
@@ -179,7 +169,6 @@
     background-color: #0a0f1a;
     color: whitesmoke;
     font-family: 'Permanent Marker', cursive;
-/*77f67954403cd944fa6b7b8cada1fb4358cee664*/
 }
 
 .brand-title {
@@ -231,25 +220,7 @@
   border-radius: 10px;
 }
 
-/*<<<<<<< HEAD*/
-@media (max-width: 800px) {
-  .first-text {
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 20%;
-    /* Adjust this value to move the positioned div up and down */
-    background: rgba(0, 0, 0, 0);
-    font-family: "Permanent Marker", cursive;
-    color: #f03a5b;
-    width: 60%;
-    font-size: 22px;
-    /* Set the width of the positioned div */
-  }
-/*====================================================*/
+
 
 
 @media (max-width: 1250px){
@@ -269,7 +240,6 @@
         font-size: 22px;
         /* Set the width of the positioned div */
     }
-/*>>>>>>> 77f67954403cd944fa6b7b8cada1fb4358cee664*/
 }
 
 @media (max-width: 800px) {
